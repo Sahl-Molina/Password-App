@@ -1,0 +1,119 @@
+body {
+    background-color: #F9FEFF;
+}
+
+/* 404 Page Styles */
+
+#notFound-tittle {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5.5em;
+    font-size: 64px;
+    font-family: inter;
+    font-weight: 700;
+}
+
+#notFound-tittle > #mesagge-separator {
+    color: #00A8E8;
+}
+
+#home-link {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 26px;
+    font-family: inter;
+    font-weight: 600;
+    color: #00A8E8;
+}
+
+
+/* Index Styles */
+#tittle-id {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#tittle-id > #tittle { 
+    color: ffffff;
+    font-size: 64px;
+    font-family: inter;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+#subtittle-id {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#subtittle-id > #subtittle {
+    color: ffffff   ;
+    font-size: 30px;
+    font-family: inter;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+#subtittle-id > #subtittle > #secure-word {
+    color: #00A8E8;
+}
+
+#filters-tittle-id {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#filters-tittle-id > #filters-tittle {
+    color: ffffff   ;
+    font-size: 21px;
+    font-family: inter;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-right: 10em;
+} 
+
+#filters-tittle-id > #filters-tittle > #filters-word {
+    color: #00A8E8;
+}
+
+#password-lenght-tittle {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#password-lenght-tittle > label {
+    margin-right: 10em;
+    font-size: 17px;
+    font-family: inter;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-right: 24.5em;
+}
+
+#length-less {
+    display: flex;
+    margin-left: 46rem;
+    margin-top: -1.5em;
+}
+
+#password-lenght {
+    display: flex;
+    text-align: center;
+    margin-left: 47rem;
+    margin-top: -1.57em;
+    width: 3em;
+
+}
+
+#length-plus {
+    display: flex;
+    margin-left: 49rem;
+    margin-top: -1.57em;
+}

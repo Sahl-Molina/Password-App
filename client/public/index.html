@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" href="./assets/styles.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>My Password Generator</title>
+</head>
+<body>
+    
+    <header>
+        <div id="logo">
+            <!-- <img style="width: 190px;" src="./assets/images/logo.png" alt="My Password Generator - Logo"> -->
+            <h2>LOGO</h2>
+        </div>
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">About The Project</a>
+            <a href="">Login</a>
+        </nav>
+    </header>
+    
+    <main>
+
+        <h1>My <span>Password</span> Generator</h1>
+
+        <h2>Create and store <span>strong</span> passwords</h2>
+
+        <p>Add some <span>filters</span> to your password:</p>
+
+        <section id="filters">
+
+            <div>
+                <label for="myNumber">Number of Characters</label>
+                <div>
+                    <button id="decreaseButton" onclick="decreaseValue()">-</button>
+                    <input type="number" id="myNumber" value="0">
+                    <button id="increaseButton" onclick="increaseValue()">+</button>
+                </div>
+            </div>
+
+            <div>
+                <input type="checkbox" id="lowercaseCheckbox" checked>
+                <label for="lowercaseCheckbox">Lowercase characters</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="uppercaseCheckbox" checked>
+                <label for="uppercaseCheckbox">Uppercase characters</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="symbolsCheckbox" checked>
+                <label for="symbolsCheckbox">Symbols</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="numbersCheckbox" checked>
+                <label for="numbersCheckbox">Numbers</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="wordsPasswordCheckbox">
+                <label for="wordsPasswordCheckbox">Words Password</label>
+            </div>
+
+            <div>
+                <label for="myNumber"></label>
+                <div>
+                    <button id="decreaseButton" onclick="decreaseValue()">-</button>
+                    <input type="number" id="myNumber" value="0">
+                    <button id="increaseButton" onclick="increaseValue()">+</button>
+                </div>
+            </div>
+            
+
+            <button type="button" id="generateButton">Generate Password</button>
+            
+            <div>
+                <input type="text" name="" id="outputBox">
+                <button type="button" id="copyButton">Copy</button>
+            </div>
+            
+
+        </section>
+    </main>
+
+    <section id="about">
+
+        <h2>About the Project</h2>
+    </section>
+
+    <footer>
+        <div id="logo">
+            <!-- <img style="width: 190px;" src="./assets/images/logo.png" alt="My Password Generator - Logo"> -->
+            <h3>LOGO</h3>
+        </div>
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">About The Project</a>
+            <a href="">Login</a>
+        </nav>
+    </footer>
+
+    <script type="module" src="../index.js"></script>
+</body>
+</html>
